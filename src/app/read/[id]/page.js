@@ -1,9 +1,8 @@
 const Read = ({ params }) => {
   return (
-    <h2>
-      Read
-      {params.id}
-    </h2>
+    <>
+      <h2>Read</h2>parameters: {params.id}
+    </>
   );
 };
 
