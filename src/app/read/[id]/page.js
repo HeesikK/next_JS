@@ -3,7 +3,7 @@
 */
 
 const Read = async ({ params }) => {
-  const res = await fetch(`http://localhost:9999/topics/${params.id}`, { cache: "no-store" });
+  const res = await fetch(process.env.NEXT_PUBLIC_API_URL + `topics/${params.id}`, { cache: "no-store" });
   const topic = await res.json();
 
   return (

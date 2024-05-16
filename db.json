@@ -1,11 +1,6 @@
 {
   "topics": [
     {
-      "title": "htmldfadafa",
-      "body": "html is ...dfafadf",
-      "id": 1
-    },
-    {
       "id": 2,
       "title": "css",
       "body": "css is ..."
@@ -28,17 +23,7 @@
     {
       "title": "d",
       "body": "d",
-      "id": 7
-    },
-    {
-      "title": "d",
-      "body": "d",
       "id": 8
-    },
-    {
-      "title": "d",
-      "body": "d",
-      "id": 9
     },
     {
       "title": "d",
@@ -59,6 +44,26 @@
       "title": "ㅇㄻ",
       "body": "ㅁㄹ",
       "id": 15
+    },
+    {
+      "title": "ㅇㅇㅇ",
+      "body": "ㅇㅇㅇ",
+      "id": 17
+    },
+    {
+      "title": "ㅇ",
+      "body": "ㅇ",
+      "id": 18
+    },
+    {
+      "title": "ㅇㄻㅇㄻ",
+      "body": "ㅇ",
+      "id": 19
+    },
+    {
+      "title": "하위",
+      "body": "ㅇㅇㅇ",
+      "id": 20
     }
   ],
   "posts": [

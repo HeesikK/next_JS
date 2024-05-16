@@ -12,7 +12,7 @@ const Update = () => {
   const id = params.id;
 
   useEffect(() => {
-    fetch("http://localhost:9999/topics/" + id)
+    fetch(process.env.NEXT_PUBLIC_API_URL + "topics/" + id)
       .then((res) => res.json())
       .then((result) => {
         setTitle(result.title);
@@ -29,7 +29,7 @@ const Update = () => {
         const body = e.target.body.value;
 
         const options = {
-          method: "PUT",
+          method: "PATCH",
           headers: {
             "Content-Type": "application/json",
           },
